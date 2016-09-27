@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/html', function (req, res) {
-  res.send('html article is requested a nd served here');
+  res.sendFile(path.join(__dirname, 'html', 'html.html'));
 });
 
 /*app.get('/ui/madi.png', function (req, res) {
