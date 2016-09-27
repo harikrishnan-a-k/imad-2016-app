@@ -21,4 +21,11 @@ body {
 	width:150px;
 	
 }
+.container{
+    max-width:800px;
+    margin:0 auto;
+    color: grey;
+    font-family:sans-serif;
+    
+}
 
