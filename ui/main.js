@@ -12,7 +12,7 @@ function moveimg(){
     }
     if(marginLeft==200)
         flag=1;
-    if(marginLeft==-100)
+    if(marginLeft==-200)
         flag=0;
     
     img.style.marginLeft=marginLeft + 'px'; 
