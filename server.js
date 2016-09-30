@@ -11,7 +11,7 @@ var articles={
                     heading:'article-html',
                     date:'sep 1 2016 ',
                     content:`<p>
-                      HyperText Markup Language (HTML) is the standard markup language for creating web pages and web applications.
+                      HyperText Markup Language (HTML) is the standard markup language for creating web pages and web application.
                       With Cascading Style Sheets (CSS), and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.
                       Web browsers receive HTML documents from a webserver or from local storage and render them into multimedia web pages. 
                       HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
@@ -34,7 +34,30 @@ var articles={
                       CSS is designed primarily to enable the separation of document content from document presentation, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
                     </p> `
               
-            }
+            },
+        'javascript':{
+                    title: 'ARTICLE-JAVASCRIPT',
+                    heading:'article-JAVASCRIPT',
+                    date:'sep 15 2016 ',
+                    content:`<p>
+                      JavaScript  is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern Web browsers without plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles.It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.
+                    </p>
+                    <p>
+                      JavaScript is also used in environments that are not Web-based, such as PDF documents, site-specific browsers, and desktop widgets. Newer and faster JavaScript virtual machines (VMs) and platforms built upon them have also increased the popularity of JavaScript for server-side Web applications. On the client side, JavaScript has been traditionally implemented as an interpreted language, but more recent browsers perform just-in-time compilation. It is also used in game development, the creation of desktop and mobile applications, and server-side network programming with run-time environments such as Node.js.
+                    </p> `
+              
+            },
+        'php':{
+                    title: 'ARTICLE-PHP',
+                    heading:'article-PHP',
+                    date:'sep 20 2016 ',
+                    content:`<p>
+                      PHP is a server-side scripting language designed primarily for web development but is also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor.
+                    </p>
+                    <p>
+                      PHP code may be embedded into HTML code, or it can be used in combination with various web template systems, web content management systems and web frameworks. PHP code is usually processed by a PHP interpreter implemented as a module in the web server or as a Common Gateway Interface (CGI) executable. The web server combines the results of the interpreted and executed PHP code, which may be any type of data, including images, with the generated web page. PHP code may also be executed with a command-line interface (CLI) and can be used to implement standalone graphical applications.
+                    </p> `
+                }
                 
     
 };
