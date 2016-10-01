@@ -35,4 +35,5 @@ body {
 .leftbox{
     float:left;
     width:420px;
+    margin-bottom:100px;
 }
