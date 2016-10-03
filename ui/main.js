@@ -71,7 +71,7 @@ submit.onclick = function(){
    
     var nmeInput=document.getElementById('name');
     var namee=nmeInput.value;
-   request.open('GET','http://harikrishnan-a-k.imad.hasura-app.io/send/namee',true);
+   request.open('GET','http://harikrishnan-a-k.imad.hasura-app.io/send/:namee',true);
    request.send(null);
 
     
