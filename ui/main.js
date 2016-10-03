@@ -41,4 +41,9 @@ button.onclick= function(){
 
     };
 
+// name list handling
+var nameinput=document.getElementById('name');
+var name=nameinput.value;
+var submit=document.getElementById('send');
+
 
