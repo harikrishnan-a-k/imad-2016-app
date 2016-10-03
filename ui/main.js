@@ -21,7 +21,7 @@ img.onload=function(){
     var  interval= setInterval(moveimg, 50 );
 };
 var button= document.getElementById('counter');
-var conunter=0;
+var counter=0;
 button.onclick= function(){
     //make request to the counter
     
