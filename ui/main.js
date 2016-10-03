@@ -42,8 +42,19 @@ button.onclick= function(){
     };
 
 // name list handling
-var nameinput=document.getElementById('name');
-var name=nameinput.value;
+var nmeInput=document.getElementById('name');
+var name=nmeInput.value;
 var submit=document.getElementById('send');
+submit.onclick = function(){
+    
+    var names=['name1','name2','name3'];
+    var list='';
+    for(var i=0;i<names.length;i++)
+    {
+        list += '<li>'+names[i] +'</li>';
+    }
+    var ul=docement.getElementByid('namelist');
+    ul.innerHTML=list;
+};
 
 
