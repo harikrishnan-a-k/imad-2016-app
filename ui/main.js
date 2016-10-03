@@ -43,7 +43,7 @@ button.onclick= function(){
 
 // name list handling
 var nmeInput=document.getElementById('name');
-var name=nmeInput.value;
+var namee=nmeInput.value;
 var submit=document.getElementById('send');
 submit.onclick = function(){
     
