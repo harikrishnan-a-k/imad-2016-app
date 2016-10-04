@@ -10,6 +10,7 @@ var articles={
                     title: 'ARTICLE-HTML',
                     heading:'article-html',
                     date:'sep 1 2016 ',
+                    button:'html_button',
                     content:`<p>
                       HyperText Markup Language (HTML) is the standard markup language for creating web pages and web application.
                       With Cascading Style Sheets (CSS), and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.
@@ -27,6 +28,7 @@ var articles={
                     title: 'ARTICLE-CSS',
                     heading:'article-CSS',
                     date:'sep 12 2016 ',
+                    button:'css_button',
                     content:`<p>
                       Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
                     </p>
@@ -39,6 +41,7 @@ var articles={
                     title: 'ARTICLE-JAVASCRIPT',
                     heading:'article-JAVASCRIPT',
                     date:'sep 15 2016 ',
+                    button:'js_button',
                     content:`<p>
                       JavaScript  is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it and it is supported by all modern Web browsers without plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles.It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.
                     </p>
@@ -51,6 +54,7 @@ var articles={
                     title: 'ARTICLE-PHP',
                     heading:'article-PHP',
                     date:'sep 20 2016 ',
+                    button:'php_button',
                     content:`<p>
                       PHP is a server-side scripting language designed primarily for web development but is also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor.
                     </p>
@@ -67,7 +71,7 @@ function createHtmlTemplate(data){
     var heading=data.heading;
     var date=data.date;
     var content=data.content;
-    
+    var button=data.button;
     var htmlTemplate=
         `
         <html>
@@ -76,6 +80,7 @@ function createHtmlTemplate(data){
             </title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link href="/ui/style.css" rel="stylesheet">
+            <script type="text/javascript" src="/ui/main.js">
           </head>
           <body>
             <div class="container">
@@ -91,6 +96,18 @@ function createHtmlTemplate(data){
             </div>
             <div>
               ${content}
+            </div>
+            <div class="comments">
+            <h3> Add your comments below...</h3>
+            your name.. <input type="text" id="username"> <br/>
+            <textarea id="commet" rows="4" cols="50" style="border-width:thick; background-color:#D5AAFF">
+            </textarea>
+            <br/>
+            <input type="submit" id="${button}">
+            <br/>
+            <h2> User comments in this topic are</h2>
+            <dl id="allcoments">
+            </dl>
             </div>
             </div>
           </body>
@@ -140,6 +157,11 @@ app.get('/send/:name',function(req,res){
     
     
 });
+var html={};
+var css={};
+var js={};
+var php={};
+//app.get('/html/');
 
 
 
