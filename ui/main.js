@@ -79,8 +79,8 @@ submit.onclick = function(){
     
 };
   //  alert("helloworld");
-var commentButton=document.getElementById('html');
-commentButton.onclick= function(){
+var c=document.getElementById('html');
+c.onclick= function(){
 
    // var html=[["hari","nice article. well written."],["sruthi","really informative."],["likha","cool article. you can improve upon it"]];
     var html=["helooo", "aknaknvkn","akksanvk"];
@@ -95,7 +95,7 @@ commentButton.onclick= function(){
            // list += '<li>'+html[i] +'</li>';
         
     }
-    var dl=document.getElementById('allcoments');
+    var dl=document.getElementById('com');
     dl.innerHTML="hello world";
 };
 
