@@ -80,7 +80,7 @@ function createHtmlTemplate(data){
             </title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link href="/ui/style.css" rel="stylesheet">
-            <script type="text/javascript" src="/ui/main.js">
+            <script type="text/javascript" src="/ui/main.js"> </script>
           </head>
           <body>
             <div class="container">
@@ -103,7 +103,7 @@ function createHtmlTemplate(data){
             <textarea id="commet" rows="4" cols="50" style="border-width:thick; background-color:#D5AAFF">
             </textarea>
             <br/>
-            
+            <input type="submit" id=${button} value=${button} >
             <br/>
             <h2> User comments in this topic are</h2>
             <dl id="allcoments">
