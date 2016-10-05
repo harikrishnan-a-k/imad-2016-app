@@ -96,7 +96,7 @@ commentButton.onclick= function(){
         
     }
     var dl=document.getElementById('allcoments');
-    dl.innerHTML=list;
+    dl.innerHTML="hello world";
 };
 
 
