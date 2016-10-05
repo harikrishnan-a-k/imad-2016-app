@@ -81,16 +81,17 @@ submit.onclick = function(){
 
 var commentButton=document.getElementById('html_button');
 commentButton.onclick= function(){
+    alert("helloworld");
     var html=[["hari","nice article. well written."],["sruthi","really informative."],["likha","cool article. you can improve upon it"]];
     var list='';
-    for(var i=0,j=0;i<html.length;i++)
+    for(var i=0;i<html.length;i++)
     {
         
-        
+            var j=0;
             list+='<dt>'+html[i][j]+'</dt>';
             j++;
             list+='<dd>'+html[i][j]+'</dd>';
-            
+          
         
     }
     var dl=document.getElementById('allcoments');
