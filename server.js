@@ -101,6 +101,8 @@ function createHtmlTemplate(data){
             <h3> Add your comments below...</h3>
             your name.. <input type="text" id="username" style="border-width:thick; background-color:#D5AAFF" /> 
             <br/>
+            your comment..
+            <br/>
             <textarea id="commet" rows="4" cols="50" style="border-width:thick; background-color:#D5AAFF">
             </textarea>
             <br/>
