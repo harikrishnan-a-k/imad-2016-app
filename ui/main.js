@@ -79,4 +79,22 @@ submit.onclick = function(){
     
 };
 
+var commentButton=document.getElementById('html_button');
+commentButton.onclick= function(){
+    var html=[["hari","nice article. well written."],["sruthi","really informative."],["likha","cool article. you can improve upon it"]];
+    var list='';
+    for(var i=0,j=0;i<html.length;i++)
+    {
+        
+        
+            list+='<dt>'+html[i][j]+'</dt>';
+            j++;
+            list+='<dd>'+html[i][j]+'</dd>';
+            
+        
+    }
+    var dl=document.getElementById('allcoments');
+    dl.innerHTML=list;
+};
+
 
