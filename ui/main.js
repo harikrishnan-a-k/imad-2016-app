@@ -80,6 +80,6 @@ submit.onclick = function(){
 };
   //  alert("helloworld");
 var c=document.getElementById('html');
-c.onclick=alert("hello world");
+c.onclick=function(){alert("hello world");};
 
 
