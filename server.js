@@ -112,6 +112,8 @@ function createHtmlTemplate(data){
             <h2> User comments in this topic are</h2>
             <dl id="allcoments">
             </dl>
+            <p id="com">
+            </p>
             </div>
             </div>
             <script type="text/javascript" src="/ui/main.js"> </script>
