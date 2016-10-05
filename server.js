@@ -107,7 +107,7 @@ function createHtmlTemplate(data){
             <textarea id="commet" rows="4" cols="50" style="border-width:thick; background-color:#D5AAFF">
             </textarea>
             <br/>
-            <input type="submit" id=${button} value=${button} onclick="document.getElementById('allcoments').innerHTML = Date()" >
+            <input type="submit" id=${button} value=${button} onclick="alert("hello world");" >
             <br/>
             <h2> User comments in this topic are</h2>
             <dl id="allcoments">
