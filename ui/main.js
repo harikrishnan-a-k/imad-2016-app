@@ -82,16 +82,17 @@ submit.onclick = function(){
 var commentButton=document.getElementById('html');
 commentButton.onclick= function(){
 
-    var html=[["hari","nice article. well written."],["sruthi","really informative."],["likha","cool article. you can improve upon it"]];
+   // var html=[["hari","nice article. well written."],["sruthi","really informative."],["likha","cool article. you can improve upon it"]];
+    var html=["helooo", "aknaknvkn","akksanvk"];
     var list='';
     for(var i=0;i<html.length;i++)
     {
         
-            var j=0;
+            /*var j=0;
             list+='<dt>'+html[i][j]+'</dt>';
             j++;
-            list+='<dd>'+html[i][j]+'</dd>';
-          
+            list+='<dd>'+html[i][j]+'</dd>';*/
+            list += '<li>'+html[i] +'</li>';
         
     }
     var dl=document.getElementById('allcoments');
