@@ -80,7 +80,7 @@ function createHtmlTemplate(data){
             </title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link href="/ui/style.css" rel="stylesheet">
-            <script type="text/javascript" src="/ui/main.js"> </script>
+            
           </head>
           <body>
             <div class="container">
@@ -114,9 +114,7 @@ function createHtmlTemplate(data){
             </dl>
             </div>
             </div>
-            <script>
-            alert("hello world");
-            </script>
+            <script type="text/javascript" src="/ui/main.js"> </script>
           </body>
           
         </html> `;  
