@@ -88,11 +88,11 @@ commentButton.onclick= function(){
     for(var i=0;i<html.length;i++)
     {
         
-            /*var j=0;
-            list+='<dt>'+html[i][j]+'</dt>';
+            var j=0;
+            list+='<dt>'+html[i]+'</dt>';
             j++;
-            list+='<dd>'+html[i][j]+'</dd>';*/
-            list += '<li>'+html[i] +'</li>';
+            list+='<dd>'+html[i]+'</dd>';
+           // list += '<li>'+html[i] +'</li>';
         
     }
     var dl=document.getElementById('allcoments');
