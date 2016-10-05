@@ -78,8 +78,8 @@ submit.onclick = function(){
     
     
 };
-    alert("helloworld");
-var commentButton=document.getElementById('html_button');
+  //  alert("helloworld");
+var commentButton=document.getElementById('html');
 commentButton.onclick= function(){
 
     var html=[["hari","nice article. well written."],["sruthi","really informative."],["likha","cool article. you can improve upon it"]];
