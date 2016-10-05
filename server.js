@@ -97,6 +97,7 @@ function createHtmlTemplate(data){
             <div>
               ${content}
             </div>
+            <hr/>
             <div class="comments">
             <h3> Add your comments below...</h3>
             your name.. <input type="text" id="username" style="border-width:thick; background-color:#D5AAFF" /> 
