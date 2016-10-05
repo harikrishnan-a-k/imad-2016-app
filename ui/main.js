@@ -80,23 +80,6 @@ submit.onclick = function(){
 };
   //  alert("helloworld");
 var c=document.getElementById('html');
-c.onclick= function(){
-
-   // var html=[["hari","nice article. well written."],["sruthi","really informative."],["likha","cool article. you can improve upon it"]];
-    var html=["helooo", "aknaknvkn","akksanvk"];
-    var list='';
-    for(var i=0;i<html.length;i++)
-    {
-        
-            var j=0;
-            list+='<dt>'+html[i]+'</dt>';
-            j++;
-            list+='<dd>'+html[i]+'</dd>';
-           // list += '<li>'+html[i] +'</li>';
-        
-    }
-    var dl=document.getElementById('com');
-    dl.innerHTML="hello world";
-};
+c.onclick=alert("hello world");
 
 
