@@ -149,11 +149,11 @@ app.get('/:articleName', function (req, res) {
 /*app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });*/
-/*app.get('/ui/m.jpg', function (req, res) {
+app.get('/ui/m.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'm.jpg'));
 });
-*/
-app.use(express.static(path.join(__dirname, 'ui')));
+
+//app.use(express.static(path.join(__dirname, 'ui')));
 app.get('/ui/main.js', function(req,res){
     res.sendFile(path.join(__dirname,'ui','main.js'));
 });
