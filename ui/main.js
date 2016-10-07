@@ -82,4 +82,4 @@ submit.onclick = function(){
 var c=document.getElementById('htmlbutton');
 c.onclick=function(){alert("hello world");};
 
-
+document.getElementById("com").style.fontSize = "30px";
